@@ -1,0 +1,51 @@
+Medicine Reminder System
+Project Overview
+
+The Medicine Reminder System is a simple Java application designed to remind users to take their medicine at specific scheduled times. The system checks the current time and compares it with predefined medicine timings. When the time matches the schedule, the program alerts the user through a console message and a popup notification.
+
+Features
+
+Checks the current system time automatically
+
+Morning and night medicine reminders
+
+Popup alert when it is time to take medicine
+
+User input to activate reminder (yes/no)
+
+Simple and easy-to-use interface
+
+Technologies Used
+
+Java
+
+Java Time API (LocalTime)
+
+Scanner for user input
+
+JOptionPane for popup notifications
+
+How the Program Works
+
+The program asks the user if they have a migraine condition.
+
+If the user answers yes, the reminder system becomes active.
+
+The program checks the current system time.
+
+If the time falls within the scheduled intervals (morning or night), a reminder message and popup alert are displayed.
+
+If the time does not match the schedule, the program informs the user that no medicine is scheduled at that time.
+
+How to Run the Program
+
+Compile the Java file using:
+
+javac ReminderSystem.java
+
+Run the program using:
+
+java ReminderSystem
+Conclusion
+
+This project demonstrates how Java programming can be used to build a simple reminder system that helps users remember their medicine schedule.
